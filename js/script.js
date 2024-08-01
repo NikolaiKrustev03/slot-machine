@@ -8,13 +8,13 @@ var money = document.getElementById("money");
 const multipliers = {
     "banana": { "2": 1, "3": 5 },
     "seven": { "2": 3.5, "3": 20 },
-    "cherry": { "2": 1, "3": 10 },
+    "cherry": { "2": 1.8, "3": 10 },
     "plum": { "2": 1.5, "3": 8 },
     "orange": { "2": 2, "3": 8 },
     "bell": { "2": 1.5, "3": 12 },
-    "bar": { "2": 2, "3": 20 },
+    "bar": { "2": 2.5, "3": 20 },
     "lemon": { "2": 1.2, "3": 6 },
-    "melon": { "2": 1, "3": 10 }
+    "melon": { "2": 1.4, "3": 10 }
 };
 
 function askForMoney() {
