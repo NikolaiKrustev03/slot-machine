@@ -1,6 +1,6 @@
 # Slot Machine
 
-Welcome to the Slot Machine project! This repository contains a slot machine game built with JavaScript, HTML, and CSS. Below you'll find information on how to set up and use the project, as well as details on contributing and licensing.
+Welcome to my Slot Machine project! This repository contains a slot machine game built with JavaScript, HTML, and CSS. Below you'll find information on how to set up and use the project, as well as its features.
 
 ## Table of Contents
 
@@ -10,13 +10,12 @@ Welcome to the Slot Machine project! This repository contains a slot machine gam
 
 ## Introduction
 
-The Slot Machine is a simulation game where players can place bets and spin the reels. The game features various symbols, sound effects, and payout calculations. It is designed to provide a fun and engaging experience for users who enjoy a bit of chance.
+The Slot Machine is a simulation game where players can place bets and spin the reels. The game features various symbols on three reels, sound effects, and payout calculations.
 
 ## Features
 
-- **Slot Machine Mechanics**: Spin the reels and see which symbols align for payouts.
-- **Sound Effects**: Includes sound effects that play during the spinning of the reels.
-- **Betting System**: Allows users to place bets and see their potential winnings.
+- **Slot Machine Mechanics**: Spin the reels and see your winnings based on the reels symbols.
+- **Betting System**: Allows users to any bet (as long as it's in your budget) - risk it or play safe, the bigger the bet, the bigger the potential payout, and of course - the bigger the loss.
 
 ## Installation
 
