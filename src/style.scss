@@ -1,0 +1,66 @@
+$icon_width: 79px;
+$icon_height: 79px;
+$num_icons: 9;
+
+html, body {
+    height: 90%;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(2, 170, 2) 20%, rgb(0, 101, 141) 60%, rgb(10, 47, 168) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.slots {
+    width: 3.5 * $icon_width;
+    height: 3 * $icon_height;
+    border: 10px solid black;
+    padding: -3px;
+    padding-bottom: 3px;
+    display:flex;
+    justify-content: space-between;
+    .reel{
+        border: 2px solid black;
+        width: $icon_width;
+        height: 3 * $icon_height;
+        background-image: url(https://assets.codepen.io/439000/slotreel.webp);
+        background-repeat: repeat-y;
+        background-position: 0px 0px;
+    }
+}
+
+
+@keyframes rainbow{
+    0%    { background-color: red;}
+    12.5% { background-color: #ff00a8;}
+    25%   { background-color: #c400ff;}
+    37.5% { background-color: #00d3ff;}
+    50%   { background-color: #00ffaf;}
+    62.5% { background-color: #1aff00;}
+    75%   { background-color: #dbff00;}
+    87.5% { background-color: #ffc000;}
+    100%  { background-color: red;}
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    animation: 25s ease-in-out 0s infinite rainbow;
+}

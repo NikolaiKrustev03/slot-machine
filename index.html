@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino</title>
+    <link rel="stylesheet" href="css_scss/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="slots">
+            <div class="reel"></div>
+            <div class="reel"></div>
+            <div class="reel"></div>
+        </div>
+
+        <div class="button">
+            <button onclick="rollAll()">Spin to win</button>
+            <h1 id="money">You got $0.00</h1>
+            <p>Your current bet: <h1 id="bet">$0.00</h1></p>
+            <p>Your payout: <h1 id="payout">$0.00</h1></p>
+            <button onclick="askForMoney()">Add Money</button>
+            <button onclick="askForBet()">Place Bet</button>
+        </div>
+    </div>
+</body>
+</html>
